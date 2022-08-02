@@ -1,0 +1,41 @@
+{
+  "name": "MyOrganization_PegaReactAC_SampleReactPegaComponennt",
+  "label": "sample Pega component",
+  "description": "sample Pega react component",
+  "organization": "MyOrganization",
+  "version": "1.0.1",
+  "library": "PegaReactAC",
+  "allowedApplications": [],
+  "componentKey": "MyOrganization_PegaReactAC_SampleReactPegaComponennt",
+  "type": "Widget",
+  "subtype": ["PAGE","CASE"],
+  "properties": [
+    {
+      "name": "label",
+      "label": "Label value",
+      "format": "TEXT"
+    },
+    {
+      "name": "placeholder",
+      "label": "Placeholder",
+      "format": "TEXT"
+    },
+    {
+      "name": "visibility",
+      "label": "Visible",
+      "format": "VISIBILITY"
+    },
+    {
+      "name": "disabled",
+      "label": "Disabled",
+      "format": "DISABLED"
+    },
+    {
+      "name": "required",
+      "label": "Required",
+      "format": "REQUIRED"
+    }
+  ],
+  "defaultConfig": {
+  }
+}
